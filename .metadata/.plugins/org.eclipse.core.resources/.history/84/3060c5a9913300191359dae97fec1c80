@@ -1,0 +1,16 @@
+app.controller('searchController',function($scope,searchService){
+	
+	//搜索
+	$scope.search=function(){
+
+		var date = new Date(+new Date()+8*3600*1000).toISOString().replace(/T/g,' ').replace(/\.[\d]{3}Z/,'');
+		alert(date);
+		searchService.search(date).success(
+			function(response){
+				$scope.resultMap=response;				
+			}
+		);		
+	}
+	
+	
+});

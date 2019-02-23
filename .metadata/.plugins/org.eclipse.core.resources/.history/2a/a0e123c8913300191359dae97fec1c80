@@ -1,0 +1,8 @@
+app.service('searchService',function($http){
+	
+	
+	this.search=function(arr){
+		return $http.post('itemsearch/search.do',date);
+	}
+	
+});

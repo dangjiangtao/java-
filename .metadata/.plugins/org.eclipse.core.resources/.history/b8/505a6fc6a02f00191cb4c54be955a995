@@ -1,0 +1,9 @@
+app.service('searchService',function($http){
+	
+	
+	this.search=function(searchMap){
+		var hhh={id:3333333,name:"hh",firstChar:"oo"};
+		return $http.post('itemsearch/search.do',hhh);
+	}
+	
+});

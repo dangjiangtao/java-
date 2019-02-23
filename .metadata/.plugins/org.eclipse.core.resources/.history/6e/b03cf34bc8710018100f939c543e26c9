@@ -1,0 +1,15 @@
+package test;
+
+import javax.sound.sampled.ReverbType;
+
+
+
+public class demo {
+public static void main(String[] args) {
+	String s="abcde";
+	char[] ch=s.toCharArray();
+	int a=s.indexOf('b');
+	System.out.println(a);
+	System.out.println(ch);
+}
+}

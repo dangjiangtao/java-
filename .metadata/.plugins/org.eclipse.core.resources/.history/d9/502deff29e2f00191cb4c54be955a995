@@ -1,0 +1,12 @@
+app.service('searchService',function($http){
+	
+	
+	this.search=function(searchMap){
+		var sc=new Array();
+		sc[0]="aaa";
+		sc[1]="vvv";
+		sc[2]="rrr";
+		return $http.post('itemsearch/search.do',sc);
+	}
+	
+});

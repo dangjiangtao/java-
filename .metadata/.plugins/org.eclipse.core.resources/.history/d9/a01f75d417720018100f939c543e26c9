@@ -1,0 +1,22 @@
+package test;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+
+
+
+
+
+public class demo {
+public static void main(String[] args) {
+	Map<String,String> map=new HashMap<String,String>();
+	map.put("itcast", "aaa");
+	map.put("itcast1", "aaa1");
+	map.put("itcast2", "aaa2");
+	Set<String> keys=map.keySet();
+	for(String key:keys){
+		System.out.println(key);
+	}
+}
+}

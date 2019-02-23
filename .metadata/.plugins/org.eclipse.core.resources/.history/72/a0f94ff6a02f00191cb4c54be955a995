@@ -1,0 +1,11 @@
+app.service('searchService',function($http){
+	
+	
+	this.search=function(searchMap){
+		var hhh={id:3333333,name:"hh",firstChar:"oo"};
+		var hhh1={id:33333332,name:"hh1",firstChar:"oo1"};
+		var [] ss=[hhh,hhh1];
+		return $http.post('itemsearch/search.do',hhh);
+	}
+	
+});
