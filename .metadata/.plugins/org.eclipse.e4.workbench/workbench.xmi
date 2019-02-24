@@ -366,7 +366,7 @@
               <children xsi:type="advanced:Placeholder" xmi:id="_rrd5zSwBEem9YOSoMn2dsQ" elementId="org.eclipse.jdt.ui.TypeHierarchy" ref="_rrd7PSwBEem9YOSoMn2dsQ"/>
               <children xsi:type="advanced:Placeholder" xmi:id="_rrd5ziwBEem9YOSoMn2dsQ" elementId="org.eclipse.jdt.ui.PackagesView" toBeRendered="false" ref="_rrehIywBEem9YOSoMn2dsQ"/>
             </children>
-            <children xsi:type="basic:PartSashContainer" xmi:id="_rrd5zywBEem9YOSoMn2dsQ" containerData="7104" selectedElement="_rrd50CwBEem9YOSoMn2dsQ">
+            <children xsi:type="basic:PartSashContainer" xmi:id="_rrd5zywBEem9YOSoMn2dsQ" containerData="7104" selectedElement="_rrd52CwBEem9YOSoMn2dsQ">
               <children xsi:type="basic:PartSashContainer" xmi:id="_rrd50CwBEem9YOSoMn2dsQ" containerData="6982" selectedElement="_rrd50SwBEem9YOSoMn2dsQ" horizontal="true">
                 <children xsi:type="basic:PartSashContainer" xmi:id="_rrd50SwBEem9YOSoMn2dsQ" containerData="7000" selectedElement="_rrd51CwBEem9YOSoMn2dsQ">
                   <children xsi:type="basic:PartStack" xmi:id="_rrd50iwBEem9YOSoMn2dsQ" elementId="PartStack@7dd3d4f5" toBeRendered="false" containerData="5000">
@@ -384,6 +384,7 @@
                 <children xsi:type="basic:PartStack" xmi:id="_rrd52SwBEem9YOSoMn2dsQ" elementId="bottomRight" containerData="1000" selectedElement="_rrd54CwBEem9YOSoMn2dsQ">
                   <tags>newtablook</tags>
                   <tags>org.eclipse.e4.secondaryDataStack</tags>
+                  <tags>active</tags>
                   <children xsi:type="advanced:Placeholder" xmi:id="_rrd52iwBEem9YOSoMn2dsQ" elementId="org.eclipse.ui.views.AllMarkersView" ref="_rreg9iwBEem9YOSoMn2dsQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_rrd52ywBEem9YOSoMn2dsQ" elementId="org.eclipse.ui.views.PropertySheet" ref="_rrehJCwBEem9YOSoMn2dsQ"/>
                   <children xsi:type="advanced:Placeholder" xmi:id="_rrd53CwBEem9YOSoMn2dsQ" elementId="org.eclipse.wst.server.ui.ServersView" ref="_rregsSwBEem9YOSoMn2dsQ"/>
@@ -517,7 +518,6 @@
         <tags>newtablook</tags>
         <tags>org.eclipse.e4.primaryDataStack</tags>
         <tags>EditorStack</tags>
-        <tags>active</tags>
         <children xsi:type="basic:Part" xmi:id="_sAA8oDOVEemoQeuqyyTn6g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="brand.html" iconURI="platform:/plugin/org.eclipse.wst.html.ui/icons/full/obj16/sourceEditor.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.html.core.htmlsource.source&quot; name=&quot;brand.html&quot; partName=&quot;brand.html&quot; title=&quot;brand.html&quot; tooltip=&quot;pinyougou-manager-web/src/main/webapp/admin/brand.html&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pinyougou-manager-web/src/main/webapp/admin/brand.html&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;6&quot; selectionOffset=&quot;5380&quot; selectionTopPixel=&quot;2829&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
@@ -531,12 +531,10 @@
           <tags>removeOnHide</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_8A60cDOVEemoQeuqyyTn6g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="brandController.js" iconURI="platform:/plugin/org.eclipse.wst.jsdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
-          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;brandController.js&quot; partName=&quot;brandController.js&quot; title=&quot;brandController.js&quot; tooltip=&quot;pinyougou-manager-web/src/main/webapp/js/controller/brandController.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pinyougou-manager-web/src/main/webapp/js/controller/brandController.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;412&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
+          <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.wst.jsdt.ui.CompilationUnitEditor&quot; name=&quot;brandController.js&quot; partName=&quot;brandController.js&quot; title=&quot;brandController.js&quot; tooltip=&quot;pinyougou-manager-web/src/main/webapp/js/controller/brandController.js&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pinyougou-manager-web/src/main/webapp/js/controller/brandController.js&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;298&quot; selectionTopPixel=&quot;0&quot;/>&#xD;&#xA;&lt;/editor>"/>
           <tags>Editor</tags>
           <tags>org.eclipse.wst.jsdt.ui.CompilationUnitEditor</tags>
           <tags>removeOnHide</tags>
-          <tags>active</tags>
-          <tags>activeOnClose</tags>
         </children>
         <children xsi:type="basic:Part" xmi:id="_LxSV4DOWEemoQeuqyyTn6g" elementId="org.eclipse.e4.ui.compatibility.editor" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor" label="BrandController.java" iconURI="platform:/plugin/org.eclipse.jdt.ui/icons/full/obj16/jcu_obj.gif" closeable="true">
           <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;editor id=&quot;org.eclipse.jdt.ui.CompilationUnitEditor&quot; name=&quot;BrandController.java&quot; partName=&quot;BrandController.java&quot; title=&quot;BrandController.java&quot; tooltip=&quot;pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/BrandController.java&quot;>&#xD;&#xA;&lt;input factoryID=&quot;org.eclipse.ui.part.FileEditorInputFactory&quot; path=&quot;/pinyougou-manager-web/src/main/java/com/pinyougou/manager/controller/BrandController.java&quot;/>&#xD;&#xA;&lt;editorState selectionHorizontalPixel=&quot;0&quot; selectionLength=&quot;0&quot; selectionOffset=&quot;1981&quot; selectionTopPixel=&quot;975&quot;/>&#xD;&#xA;&lt;/editor>"/>
@@ -818,6 +816,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_rreg3iwBEem9YOSoMn2dsQ" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -1164,7 +1164,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rrehSiwBEem9YOSoMn2dsQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_TigX0jOIEemoQeuqyyTn6g" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_rrfyjywBEem9YOSoMn2dsQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yT6D1zeLEemRSOEXEs1pyA" elementId="print" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" enabled="false" command="_rrfyjywBEem9YOSoMn2dsQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rrehVywBEem9YOSoMn2dsQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1197,7 +1197,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rrehyCwBEem9YOSoMn2dsQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_TinslDOIEemoQeuqyyTn6g" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_rrfxRywBEem9YOSoMn2dsQ"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_yUD01DeLEemRSOEXEs1pyA" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_rrfxRywBEem9YOSoMn2dsQ"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_rreh0iwBEem9YOSoMn2dsQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
