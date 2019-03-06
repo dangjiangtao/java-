@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete 6 elements from project &apos;pinyougou-manager-web&apos;&#x0D;&#x0A;- Original project: &apos;pinyougou-manager-web&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     admin&#x0D;&#x0A;     css&#x0D;&#x0A;     img&#x0D;&#x0A;     js&#x0D;&#x0A;     plugins&#x0D;&#x0A;     login.html" description="Delete elements" element1="src/main/webapp/img" element2="src/main/webapp/admin" element3="src/main/webapp/plugins" element4="src/main/webapp/css" element5="src/main/webapp/js" element6="src/main/webapp/login.html" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="6" stamp="1534434043735" subPackages="false" version="1.0"/>
-</session>

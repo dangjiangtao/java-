@@ -1,9 +1,0 @@
-INDEX VERSION 1.127
-C:\Users\dangjiangtao\Desktop\testkongjian\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1302941186.index
-\casclient_demo2\src\main\java
-C:\Users\dangjiangtao\Desktop\testkongjian\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3441478776.index
-\bos_management\src\main\resources
-C:\Users\dangjiangtao\Desktop\testkongjian\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1929948913.index
-\boot-crm\src
-C:\Users\dangjiangtao\Desktop\testkongjian\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\506664326.index
-\casclient_demo1\src\main\java

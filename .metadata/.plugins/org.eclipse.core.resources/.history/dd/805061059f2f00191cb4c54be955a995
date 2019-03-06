@@ -1,9 +1,0 @@
-app.service('searchService',function($http){
-	
-	
-	this.search=function(searchMap){
-		var hhh={"aa":"ss","gg":"hh"};
-		return $http.post('itemsearch/search.do',searchMap);
-	}
-	
-});
